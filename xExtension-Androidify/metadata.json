@@ -1,0 +1,8 @@
+{
+	"name": "Androidify",
+	"author": "Phie",
+	"description": "Minimizes the required button space and groups buttons.",
+	"version": 0.1,
+	"entrypoint": "Androidify",
+	"type": "user"
+}
