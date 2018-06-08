@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+    .aside .btn-important {
+        margin-top: 10px;
+        display: inherit;
+    }
     .extension_smartmenu ul {
         min-width: 45px !important;
         text-align: center !important;
@@ -57,8 +61,16 @@
         z-index: 20;
         top: 55px;
     }
-    #stream {
+    #stream,
+    .post {
         margin-top: 60px;
+    }
+    .post {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .stick {
+        max-width: calc(100% - 80px);
     }
     /* Search bar */
     .item.search {

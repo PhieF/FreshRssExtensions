@@ -2,7 +2,7 @@ jQuery(function ($) {
 
     var width = $(window).width();
     if (width <= 768) {
-        console.log('prout');
+        document.getElementsByClassName('configure-feeds')[0].classList.remove('no-mobile')
         var el = document.getElementsByClassName('toggle_aside')[1];
         el.parentNode.removeChild(el);
         $('.nav-login').prepend(el);

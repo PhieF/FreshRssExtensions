@@ -1,5 +1,4 @@
 <?php
-echo "<link rel=\"manifest\" href=\"/manifest.json\" />";
 class SmartMobileMenuExtension extends Minz_Extension {
 
     public function init() {
